@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="er-kSUpeDFI4WbNVQyeE">
-    <mxGraphModel dx="1880" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2091" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,6 +11,9 @@
         </mxCell>
         <mxCell id="p1OKsSTEQg5NMhiShWlo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Categories&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK Category ID&lt;/li&gt;&lt;li&gt;Category Name&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="180" x="-80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-17" edge="1" parent="1" source="p1OKsSTEQg5NMhiShWlo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="nhGzbCe2u7kLsLw03KLs-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p1OKsSTEQg5NMhiShWlo-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Products&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK ProductID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ProductName&lt;/li&gt;&lt;li&gt;FK CategoryID&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="180" x="240" y="160" as="geometry" />
@@ -27,8 +30,17 @@
         <mxCell id="p1OKsSTEQg5NMhiShWlo-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Customers&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK Customers ID&lt;/li&gt;&lt;li&gt;CustomerName&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;City&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Region&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="180" x="-80" y="330" as="geometry" />
         </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-12" edge="1" parent="1" source="p1OKsSTEQg5NMhiShWlo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="nhGzbCe2u7kLsLw03KLs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-13" edge="1" parent="1" source="p1OKsSTEQg5NMhiShWlo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="nhGzbCe2u7kLsLw03KLs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-25" edge="1" parent="1" source="p1OKsSTEQg5NMhiShWlo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="nhGzbCe2u7kLsLw03KLs-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="p1OKsSTEQg5NMhiShWlo-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Orders&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK OrderID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;FK Customers ID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;OrderDate&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;OrderStatus&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="180" x="240" y="330" as="geometry" />
+          <mxGeometry height="110" width="180" x="360" y="330" as="geometry" />
         </mxCell>
         <mxCell id="p1OKsSTEQg5NMhiShWlo-11" edge="1" parent="1" source="p1OKsSTEQg5NMhiShWlo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="p1OKsSTEQg5NMhiShWlo-10">
           <mxGeometry relative="1" as="geometry" />
@@ -37,7 +49,49 @@
           <mxGeometry height="30" width="60" x="100" y="350" as="geometry" />
         </mxCell>
         <mxCell id="p1OKsSTEQg5NMhiShWlo-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
-          <mxGeometry height="30" width="60" x="180" y="340" as="geometry" />
+          <mxGeometry height="30" width="60" x="250" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Payments&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK PaymentsID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;FK OrderID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PaymentDate&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PaymentMethod&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PaymentAmount&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="600" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;OrderDetails&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK LineID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;FK OrderID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;FK ProductID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Quantity&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;UnitPrice&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="600" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="520" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;PriceHistory&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK PriceID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;FK ProductID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ValidFrom&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ValidTo&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;UnitPrice&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="150" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;ReturnsTable&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK ReturnID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;FK OrderID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ReturnDate&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ReturnReason&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ReturnAmount&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="420" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-28" edge="1" parent="1" source="p1OKsSTEQg5NMhiShWlo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.434;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="nhGzbCe2u7kLsLw03KLs-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="nhGzbCe2u7kLsLw03KLs-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="535" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
