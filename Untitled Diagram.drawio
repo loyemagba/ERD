@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="er-kSUpeDFI4WbNVQyeE">
+    <mxGraphModel dx="1880" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p1OKsSTEQg5NMhiShWlo-2" edge="1" parent="1" source="p1OKsSTEQg5NMhiShWlo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1OKsSTEQg5NMhiShWlo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Categories&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK Category ID&lt;/li&gt;&lt;li&gt;Category Name&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="-80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="p1OKsSTEQg5NMhiShWlo-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Products&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK ProductID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ProductName&lt;/li&gt;&lt;li&gt;FK CategoryID&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p1OKsSTEQg5NMhiShWlo-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p1OKsSTEQg5NMhiShWlo-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p1OKsSTEQg5NMhiShWlo-7" edge="1" parent="1" source="p1OKsSTEQg5NMhiShWlo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.378;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="p1OKsSTEQg5NMhiShWlo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1OKsSTEQg5NMhiShWlo-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Customers&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK Customers ID&lt;/li&gt;&lt;li&gt;CustomerName&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;City&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Region&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="-80" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="p1OKsSTEQg5NMhiShWlo-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Orders&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;PK OrderID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;FK Customers ID&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;OrderDate&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;OrderStatus&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="240" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="p1OKsSTEQg5NMhiShWlo-11" edge="1" parent="1" source="p1OKsSTEQg5NMhiShWlo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="p1OKsSTEQg5NMhiShWlo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1OKsSTEQg5NMhiShWlo-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="p1OKsSTEQg5NMhiShWlo-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
